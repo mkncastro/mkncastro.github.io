@@ -19,27 +19,24 @@ h1, nav {
     color: darkred;
 }
 
-section {
+article {
     text-align: left;
+    }
+article > a {
+    text-decoration: none;
+}
+article > a:hover {
+    text-decoration: underline;
+    color: red;
 }
 ul, ol {
     list-style-position: inside;
 }
-picture {
-    zoom:normal;
-    zoom:reset;
+.foto {
+    border-radius: 50%;
 }
-h3{
-    text-align: left;
-}
-address {
-    text-align: left;
-    font-size: 0.6em;
-}
+
 footer {
     font-size: 0.5em;
-}
-nav {
-    justify-content: space-between;
 }
 
