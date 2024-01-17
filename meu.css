@@ -32,7 +32,7 @@ article > a:hover {
 ul, ol {
     list-style-position: inside;
 }
-.foto {
+img {
     border-radius: 50%;
 }
 
