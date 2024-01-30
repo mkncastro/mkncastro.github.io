@@ -5,30 +5,38 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: center;
+    background-image: url('img/bg8.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
-h1, nav {
+h1, h2, nav {
     text-align: center;
-}
-.um{
-    color: dimgray;
-}    
-.dois{
-    color: darkgoldenrod;
-}
-.tres{
-    color: darkred;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
-article {
+body p {
+    background-color: white;
+    border: 1px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+    padding: 10px;
+}
+
+body {
     text-align: left;
     }
-article > a {
+body a {
     text-decoration: none;
+    list-style-type: none;
+    color: white;
 }
-article > a:hover {
+body a:hover {
     text-decoration: underline;
     color: red;
 }
+
 ul, ol {
     list-style-position: inside;
 }
